@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sahil Bawane - Data Analyst Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background-color: #ffffff;
+      color: #d6b2b2;
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1534759846116-5791f8e0c6cf') no-repeat center center/cover;
+      color: rgb(82, 75, 75);
+      padding: 80px 20px;
+      text-align: center;
+    }
+    header img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid rgb(104, 101, 101);
+      margin-bottom: 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+    }
+    header p {
+      font-size: 1.2em;
+    }
+    nav {
+      background-color: #8d9eb1;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a{
+      color: rgb(183, 142, 142)32, 116, 116);
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 50px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    h2 {
+      color: #425970;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .skills img {
+      width: 60px;
+      margin: 10px;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+    .project-card {
+      background: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .project-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .project-card h3 {
+      margin: 15px;
+    }
+    .project-card p {
+      margin: 0 15px 15px;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+    }
+    .gallery img {
+      width: 200px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="img.png" alt="Sahil Bawane Profile">
+    <h1>Sahil Bawane</h1>
+    <p>Data Analyst|Turning Data into Insights</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Hi, I'm Sahil Bawane, a passionate Data Analyst with expertise in transforming raw data into meaningful insights. 
+      I specialize in statistical analysis, data visualization, and business intelligence to help organizations make data-driven decisions.
+    </p>
+    <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786" alt="Data Visualization" style="width:100%;border-radius:8px;margin-top:20px;">
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <div style="text-align:center;">
+      <img src="https://cdn-icons-png.flaticon.com/512/919/919836.png" alt="Python">
+      <img src="https://cdn-icons-png.flaticon.com/512/2772/2772128.png" alt="SQL">
+      <img src="https://cdn-icons-png.flaticon.com/512/732/732220.png" alt="Excel">
+      <img src="https://cdn-icons-png.flaticon.com/512/888/888879.png" alt="Tableau">
+      <img src="https://cdn-icons-png.flaticon.com/512/888/888857.png" alt="Power BI">
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <img src="https://images.unsplash.com/photo-1581090700227-4c4f2a3f1c3b" alt="Sales Dashboard">
+        <h3>Sales Dashboard</h3>
+        <p>Interactive Tableau dashboard to track sales performance and identify growth opportunities.</p>
+      </div>
+      <div class="project-card">
+        <img src="https://images.unsplash.com/photo-1556157382-97eda2d62296" alt="Customer Segmentation">
+        <h3>Customer Segmentation</h3>
+        <p>Applied clustering techniques to segment customers based on purchasing behavior.</p>
+      </div>
+      <div class="project-card">
+        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d" alt="Predictive Analytics">
+        <h3>Predictive Analytics</h3>
+        <p>Built machine learning models to forecast product demand and optimize inventory.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b" alt="Workstation">
+      <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c" alt="Teamwork">
+      <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" alt="Analytics">
+      <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="Coding">
+      <img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb" alt="Charts">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p style="text-align:center;">
+      📧 Email: sahil.bawane@example.com <br>
+      🔗 LinkedIn: linkedin.com/in/sahilbawane <br>
+      💻 GitHub: github.com/sahilbawane
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sahil Bawane. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
